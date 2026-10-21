@@ -1,4 +1,4 @@
-# 🛡️ Password Strength Checker
+#  Password Strength Checker
 
 A modern, privacy-focused password strength evaluator and security analyzer built with **React 19**, **TypeScript**, **Tailwind CSS v4**, and **Capacitor**. 
 
@@ -6,16 +6,16 @@ Evaluations run **100% locally on your device** using pattern-matching heuristic
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🔒 **100% Client-Side & Private**  
+-  **100% Client-Side & Private**  
   Zero telemetry, zero API requests, and zero remote logging. Every check runs locally in memory.
 
-- 🧠 **Dual-Engine Evaluation**  
+-  **Dual-Engine Evaluation**  
   - **`@zxcvbn-ts/core`**: Estimates real-world entropy, dictionary frequency, and brute-force cracking resistance.
   - **Custom Heuristics**: Detects predictable sequences (`1234`, `qwerty`), repeated characters (`aaa`), dictionary words, and common l33tspeak substitutions (`p@ssw0rd`).
 
-- ⏱️ **Realistic Crack Time Estimates**  
+- ⏱ **Realistic Crack Time Estimates**  
   Displays estimated time to crack the password under slow offline hashing attack scenarios (e.g. bcrypt / Argon2).
 
 - 💡 **Actionable Security Advice**  
